@@ -1,0 +1,20 @@
+[
+  {
+    "name": "mb_int8_mlp_down_m4_gbps",
+    "source": "worker",
+    "higherIsBetter": true,
+    "importance": 0.7
+  },
+  {
+    "name": "mb_int8_mlp_down_m1_gbps",
+    "source": "worker",
+    "higherIsBetter": true,
+    "importance": 0.15
+  },
+  {
+    "name": "mb_int8_mlp_down_m32_gbps",
+    "source": "worker",
+    "higherIsBetter": true,
+    "importance": 0.15
+  }
+]
