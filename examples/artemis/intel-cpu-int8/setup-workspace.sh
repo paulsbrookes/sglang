@@ -95,7 +95,7 @@ if test ! -x "$ARTEMIS_VENV_DIR/bin/python"; then
 fi
 
 "$ARTEMIS_VENV_DIR/bin/python" - <<'PY'
-import importlib
+import importlib.util
 import sys
 
 required = ("torch", "pytest", "scikit_build_core")
